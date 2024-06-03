@@ -21,3 +21,12 @@ for (let i = 0; i <= string.length; i++){
 };
 };
  
+function printNum(num){
+    if(num > 10){
+        return
+    }
+    console.log(num)
+   printNum(num +1 );
+}
+console.log(printNum(1));
+ 
